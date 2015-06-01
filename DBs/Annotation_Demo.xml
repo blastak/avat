@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<AdvancedAnnotation>
+    <SequenceInfo SeqType="Video">
+        <Video FileName="Annotation_Demo.mp4" TotalFrames="900" FrameWidth="1280" FrameHeight="720" />
+    </SequenceInfo>
+    <ObjectTypeInfo>
+        <Type Name="Pedestrian">
+            <Class Name="Whole" />
+            <Class Name="Upperbody" />
+            <Class Name="Occlusion" />
+        </Type>
+        <Type Name="Vehicle">
+            <Class Name="Sedan">
+                <SubClass Name="Front" />
+                <SubClass Name="Rear" />
+                <SubClass Name="Side" />
+            </Class>
+            <Class Name="SUV">
+                <SubClass Name="Front" />
+                <SubClass Name="Rear" />
+                <SubClass Name="Side" />
+            </Class>
+            <Class Name="Truck">
+                <SubClass Name="Front" />
+                <SubClass Name="Rear" />
+                <SubClass Name="Side" />
+            </Class>
+            <Class Name="Bus">
+                <SubClass Name="Front" />
+                <SubClass Name="Rear" />
+                <SubClass Name="Side" />
+            </Class>
+        </Type>
+        <Type Name="TrafficSign">
+            <Class Name="Mandatory">
+                <SubClass Name="Circle" />
+                <SubClass Name="Triangle" />
+                <SubClass Name="Rectangle" />
+                <SubClass Name="InvTriangle" />
+            </Class>
+            <Class Name="Danger">
+                <SubClass Name="Circle" />
+                <SubClass Name="Triangle" />
+                <SubClass Name="Rectangle" />
+                <SubClass Name="InvTriangle" />
+            </Class>
+            <Class Name="Prohibit">
+                <SubClass Name="Circle" />
+                <SubClass Name="Triangle" />
+                <SubClass Name="Rectangle" />
+                <SubClass Name="InvTriangle" />
+            </Class>
+            <Class Name="Light">
+                <SubClass Name="Green" />
+                <SubClass Name="Red" />
+            </Class>
+        </Type>
+        <Type Name="Lane">
+            <Class Name="Left" />
+            <Class Name="Right" />
+        </Type>
+    </ObjectTypeInfo>
+    <FrameInfo />
+</AdvancedAnnotation>
